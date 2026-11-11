@@ -91,6 +91,6 @@ Is high quality?: False
 
 The model is also deployed in the cloud using **Render**. You can test the live API by sending a POST request to:
 
-`https://<TU_URL_DE_RENDER>.onrender.com/predict`
+`https://wine-quality-ml-0xpm.onrender.com/predict`
 
 Just update the `url` variable in the `test_predict.py` script to point to this address and run it!

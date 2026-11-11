@@ -1,6 +1,7 @@
 import requests
 
 url = 'http://localhost:9696/predict'
+#url = 'https://wine-quality-ml-0xpm.onrender.com/predict'
 
 wine_data = {
     "fixed_acidity": 7.4,
