@@ -8,7 +8,10 @@ COPY ["Pipfile", "Pipfile.lock", "./"]
 
 RUN pipenv install --system --deploy
 
-COPY ["predict.py", "model_rf.bin", "./"]
+COPY ["data/", "./data/"]
+COPY ["train.py", "predict.py", "./"]
+
+RUN python train.py
 
 EXPOSE 9696
 

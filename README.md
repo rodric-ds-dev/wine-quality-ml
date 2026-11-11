@@ -86,3 +86,11 @@ python test_predict.py
 High quality probability: 0.0199
 Is high quality?: False
 ```
+
+## ☁️ 5. Cloud Deployment (Bonus)
+
+The model is also deployed in the cloud using **Render**. You can test the live API by sending a POST request to:
+
+`https://<TU_URL_DE_RENDER>.onrender.com/predict`
+
+Just update the `url` variable in the `test_predict.py` script to point to this address and run it!
